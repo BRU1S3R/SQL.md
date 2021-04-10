@@ -24,7 +24,8 @@ Database details
 SELECT db_name();
 SELECT database();
 SELECT schema_name FROM information_schema.schemata;
-
+LIST DB
+SELECT name FROM master..sysdatabases;
 
 Database credentials
 SELECT host, user, password FROM mysql.user;
