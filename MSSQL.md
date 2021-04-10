@@ -21,6 +21,7 @@ SELECT user,password FROM mysql.user;
 
 
 Database details
+use <<<db>>>
 SELECT db_name();
 SELECT database();
 SELECT schema_name FROM information_schema.schemata;
